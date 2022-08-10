@@ -64,22 +64,6 @@ public class ExampleMod {
 	// You can use EventBusSubscriber to automatically register all static methods
 	// in the class annotated with @SubscribeEvent
 	@Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-	public class DataGenerators {
-		@SubscribeEvent
-		public static void gatherData(GatherDataEvent event) {
-			DataGenerator generator = event.getGenerator();
-			ExistingFileHelper helper = event.getExistingFileHelper();
-
-			generator.addProvider(true, new ExampleBlockStateProvider(generator, helper));
-			generator.addProvider(true, new ExampleBlockTagsProvider(generator, helper));
-			generator.addProvider(true, new ExampleEnUsProvider(generator));
-			generator.addProvider(true, new ExampleItemModelProvider(generator, helper));
-			generator.addProvider(true, new ExampleLootTableProvider(generator));
-			generator.addProvider(true, new ExampleRecipeProvider(generator));
-		}
-	}
-
-	@Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 	public static class ClientModEvents {
 		@SubscribeEvent
 		public static void onClientSetup(FMLClientSetupEvent event) {
