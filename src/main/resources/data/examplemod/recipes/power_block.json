@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "examplemod:steel_block"
+		},
+		{
+			"item": "minecraft:yellow_dye"
+		},
+		{
+			"item": "minecraft:redstone_torch"
+		},
+		{
+			"item": "minecraft:sugar"
+		}
+	],
+	"result": {
+		"item": "examplemod:power_block"
+	}
+}
