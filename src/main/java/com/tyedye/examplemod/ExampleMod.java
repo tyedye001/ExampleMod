@@ -3,21 +3,12 @@ package com.tyedye.examplemod;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
-import com.tyedye.examplemod.common.datagen.client.ExampleBlockStateProvider;
-import com.tyedye.examplemod.common.datagen.client.ExampleItemModelProvider;
-import com.tyedye.examplemod.common.datagen.client.languages.ExampleEnUsProvider;
-import com.tyedye.examplemod.common.datagen.server.ExampleBlockTagsProvider;
-import com.tyedye.examplemod.common.datagen.server.ExampleLootTableProvider;
-import com.tyedye.examplemod.common.datagen.server.ExampleRecipeProvider;
 import com.tyedye.examplemod.core.init.BlockInit;
 import com.tyedye.examplemod.core.init.ItemInit;
 
 import net.minecraft.client.Minecraft;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.common.data.ExistingFileHelper;
-import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
