@@ -1,0 +1,14 @@
+{
+  "block.examplemod.deepslate_steel_ore": "Deepslate Steel Ore",
+  "block.examplemod.power_block": "Power Block",
+  "block.examplemod.power_block.tooltip": "Hold SHIFT for more information!",
+  "block.examplemod.power_block.tooltip.shift": "Right-click block to show abilities. Step on block to gain abilities.",
+  "block.examplemod.steel_block": "Block of Steel",
+  "block.examplemod.steel_ore": "Steel Ore",
+  "item.examplemod.ore_finder": "Ore Finder",
+  "item.examplemod.ore_finder.tooltip.shift": "Right-click a block to see if there are ores under it!",
+  "item.examplemod.raw_steel": "Raw Steel",
+  "item.examplemod.steel_ingot": "Steel Ingot",
+  "item.examplemod.steel_nugget": "Steel Nugget",
+  "itemGroup.examplemod": "Example Mod Tab"
+}
